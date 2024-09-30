@@ -17,7 +17,7 @@ public class KafkaDataServiceImpl implements KafkaDataService {
     @Override
     public void send(Data data) {
         String topic = switch (data.getMeasurementType()) {
-            case TEMPERATURE -> "data-tamperature";
+            case TEMPERATURE -> "data-temperature";
             case VOLTAGE -> "data-voltage";
             case POWER -> "data-power";
         };

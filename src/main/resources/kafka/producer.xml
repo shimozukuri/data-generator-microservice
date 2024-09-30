@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <producer>
-    <keySerialaizer>org.apache.common.serialization.StringSerializer</keySerialaizer>
-    <valueSerialaizer>org.springframework.kafka.support.serializer.JsonSerializer</valueSerialaizer>
-</producer>
+    <keySerializer>
+        org.apache.kafka.common.serialization.StringSerializer
+    </keySerializer>
+    <valueSerializer>
+        org.springframework.kafka.support.serializer.JsonSerializer
+    </valueSerializer>

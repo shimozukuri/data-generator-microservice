@@ -86,7 +86,7 @@ public class KafkaConfig {
     }
 
     @Bean
-    public KafkaSender<String, Object> sender() {
-        return KafkaSender.create(senderOptions());
+    public KafkaSender<String, Object> sender(SenderOptions<String, Object> senderOptions) {
+        return KafkaSender.create(senderOptions);
     }
 }
