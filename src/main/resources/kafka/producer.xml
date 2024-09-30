@@ -6,4 +6,3 @@
     <valueSerializer>
         org.springframework.kafka.support.serializer.JsonSerializer
     </valueSerializer>
-</producer>
