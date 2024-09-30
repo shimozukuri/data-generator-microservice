@@ -1,4 +1,3 @@
-
 package project.shimozukuri.data_generator_microservice.web.dto;
 
 import lombok.Getter;
