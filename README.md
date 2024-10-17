@@ -1,8 +1,17 @@
 # Data generator microservice
 
-Application has two endpoints:
+## Stack
+- Java 17
+- Spring
+- MapStruct
+- Lombok
+- GitHub Actions
+- Kafka
+- Docker
+
+## API
 * POST `/api/v1/data/send`
-#### Example JSON
+### Example JSON
 ```json
 {
   "sensorId": 1,
@@ -13,7 +22,7 @@ Application has two endpoints:
 ```
 
 * POST `/api/v1/data/test/send`
-#### Example JSON
+### Example JSON
 ```json
 {
   "delayInSeconds": 3,
